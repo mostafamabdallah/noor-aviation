@@ -1,0 +1,50 @@
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
+
+.btn:hover{
+    background-color: #a2f7eb  !important;
+    color: black !important;
+}
+.scroll-table{
+    overflow-x: scroll;
+}
+
+.myTable tr td , .myTable tr th{
+    padding: 1rem 2rem;
+    color: #b4b7bd;
+    font-size: 0.8rem;
+}
+
+.demo p ,.demo h6{
+    color: #b4b7bd !important;
+}
+
+
+.myTable thead tr {
+    background-color: #343d55   ;
+}
+
+.myTable{
+    width: 100%;
+}
+
+.myTable tbody tr{
+ border-bottom: 0.1px solid #3b4253;
+}
