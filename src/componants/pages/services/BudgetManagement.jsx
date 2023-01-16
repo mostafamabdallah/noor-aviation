@@ -1,5 +1,6 @@
 import React from "react";
 import dashboard from "../../../imgs/DashBoard.png";
+import budget from "../../../imgs/Budget2.webp";
 import { FaEye } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -45,7 +46,7 @@ const BudgetManagement = () => {
           </div>
 
           <div className="col-12 col-md-6">
-            <img width="100%" src={dashboard}></img>
+            <img width="100%" src={budget}></img>
           </div>
         </div>
       </div>

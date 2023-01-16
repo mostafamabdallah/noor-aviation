@@ -22,8 +22,8 @@ const Home = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 1 }}
     >
-      <div className="container">
       <Slider></Slider>
+      <div className="container">
         <div className="row align-items-center justify-content-center pt-3 pb-5">
           <div className="col-11 col-md-8 pt-5 pb-5">
             <motion.h1 className="h3"
@@ -88,6 +88,8 @@ const Home = () => {
               delay: 4,
             }}
             className="col-11 col-md-4 p-4"
+
+            id="contact"
             style={{ backgroundColor: "black" }}
           >
             <h5 className="text-white">Start your Xperience</h5>

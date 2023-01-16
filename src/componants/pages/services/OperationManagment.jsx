@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import dashboard from "../../../imgs/DashBoard.png";
+import operation from "../../../imgs/Operation Events Anaylsis.png";
 import { FaEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import image1 from "../../../imgs/Final/01.jpg";
@@ -42,7 +42,7 @@ const OperationManagment = () => {
           </div>
 
           <div className="col-12 col-md-6">
-            <img width="100%" src={dashboard}></img>
+            <img width="100%" src={operation}></img>
           </div>
         </div>
       </div>

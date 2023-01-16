@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CustomizedTables from "../../Table";
 import Loading from "../../Loading";
 import { motion } from "framer-motion";
-
+import maintenance from "../../../../src/imgs/Maintenance 2.png";
 const MaintenanceDemo = () => {
   const [loading, setLoading] = useState(0);
   const [disable, setDisable] = useState({ text: "Run", value: false });
@@ -72,7 +72,10 @@ const MaintenanceDemo = () => {
             ) : loading == 0 ? (
               <div></div>
             ) : (
-              <CustomizedTables type="maintenance"></CustomizedTables>
+              <div>
+                <CustomizedTables type="maintenance"></CustomizedTables>
+                <img width={'100%'} src={maintenance}></img>
+              </div>
             )}
           </div>
         </div>

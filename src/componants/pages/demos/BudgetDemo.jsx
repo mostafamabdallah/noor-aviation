@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CustomizedTables from "../../Table";
 import Loading from "../../Loading";
+import budget from "../../../../src/imgs//Budget2.webp";
 
 import { motion } from "framer-motion";
 
@@ -73,7 +74,10 @@ const BudgetDemo = () => {
             ) : loading == 0 ? (
               <div></div>
             ) : (
-              <CustomizedTables></CustomizedTables>
+              <div>
+                <CustomizedTables></CustomizedTables>
+                <img src={budget}></img>
+              </div>
             )}
           </div>
         </div>

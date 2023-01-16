@@ -31,24 +31,24 @@ const data = ["STRATEGIC PLANNING", "BUDGET ANAYSIS"];
 
 const Nav = () => {
   return (
-    <div style={{ backgroundColor: "white" }}>
-      <div className="container">
-        <div className="row justify-content-center justify-content-md-between align-items-center p-2">
+    <div style={{ backgroundColor: "black" ,color:'white'}}>
+      <div className="container py-2">
+        <div className="row justify-content-center justify-content-md-between align-items-center p-2 ">
           <div className="col-2 col-md-2" style={{ transform: "1s" }}>
             <Link to="/">
               <img width="85%" src={logo} />
             </Link>
           </div>
           <div className="col-12 col-md-6">
-            <ul className="row nav justify-content-end p-2">
-              <li className="col-4 col-md-3 col-lg-2">
-                <Link to="/services">SERVICES</Link>
+            <ul className="row nav justify-content-end p-2 text-white" >
+            <li className="col-auto col-md-auto col-lg-auto">
+                <Link to="/services" style={{color:'white'}}>HOME</Link>
               </li>
-              <li className="col-4 col-md-3 col-lg-2">
-                <Link to="/">TUTORIALS</Link>
+              <li className="col-auto col-md-auto col-lg-auto">
+                <Link to="/services" style={{color:'white'}}>SERVICES</Link>
               </li>
-              <li className="col-4 col-md-3 col-lg-2">
-                <Link to="/">CONTACT</Link>
+              <li className="col-auto col-md-auto col-lg-auto">
+                <a href="/#contact" style={{color:'white'}}>CONTACT US</a>
               </li>
             </ul>
           </div>

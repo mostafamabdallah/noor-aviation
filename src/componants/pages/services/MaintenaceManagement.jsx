@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import dashboard from "../../../imgs/DashBoard2.png";
+import maintenance from "../../../imgs/Maintenance 2.png";
 import { FaEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import image1 from "../../../imgs/Final/02.jpg";
@@ -46,7 +47,7 @@ const MaintenaceManagement = () => {
           </div>
 
           <div className="col-12 col-md-6">
-            <img width="100%" src={dashboard}></img>
+            <img width="100%" src={maintenance}></img>
           </div>
         </div>
       </div>
